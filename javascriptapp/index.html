@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>neilhighley.com - internet development - mobile development - csharp - javascript</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/styles/reset.css"></link>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap-theme.css"></link>
+
+<link rel="stylesheet" href="/styles/main.css"></link>
+
+</head>
+<body ng-app="nhcom">
+<h1 class="container-fluid main-header" ng-controller="HeaderCtrl">
+  <span class="align-left title" ng-click="GoHome()" title="Return to the home page link">neilhighley.com</span><br/>
+  <span class="align-left subtitle">internet - games - mobile</span>
+</h1>
+
+<div ng-view class="container-fluid"> </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-resource.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-sanitize.js"></script>
+
+<!--CDN link for the latest TweenMax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+<script src="/app/m.js"></script>
+<script src="/app/c.js"></script>
+<script src="/app/conf.js"></script>
+<script src="/app/s.js"></script>
+<script src="/app/d.js"></script>
+<script src="/app/d-diaryListDirective.js"></script>
+<script src="/app/d-blogListing.js"></script>
+<script src="/app/d-portfolioItem.js"></script>
+<script src="/app/d-resumeItem.js"></script>
+
+<script src="/app/r.js"></script>
+<script src="/app/f.js"></script>
+<script src="/app/fa.js"></script>
+
+
+<script src="/app/main.js"></script>
+
+<script>
+
+</script>
+
+
+<!-- Twitter API -->
+<script>window.twttr = (function (d, s, id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src= "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, "script", "twitter-wjs"));</script>
+</body>
+</html>
