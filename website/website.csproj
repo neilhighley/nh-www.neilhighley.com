@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A101774B-4A79-467B-BD5F-4E187594E1E9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>website</RootNamespace>
+    <AssemblyName>website</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bower_components\requirejs\.bower.json" />
+    <Content Include="bower_components\requirejs\bower.json" />
+    <Content Include="bower_components\requirejs\README.md" />
+    <Content Include="files\resume.docx" />
+    <Content Include="files\resume.pdf" />
+    <Content Include="node_modules\asyncjs\.c9revisions\package.json" />
+    <Content Include="node_modules\asyncjs\.c9revisions\package.json.c9save" />
+    <Content Include="node_modules\asyncjs\.npmignore" />
+    <None Include="node_modules\asyncjs\.settings" />
+    <Content Include="node_modules\asyncjs\.travis.yml" />
+    <Content Include="node_modules\asyncjs\package.json" />
+    <Content Include="node_modules\asyncjs\Readme.md" />
+    <Content Include="npm-debug.log" />
+    <Content Include="README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\c.js" />
+    <Content Include="app\conf.js" />
+    <Content Include="app\d-blogListing.js" />
+    <Content Include="app\d-diaryListDirective.js" />
+    <Content Include="app\d-portfolioItem.js" />
+    <Content Include="app\d-resumeItem.js" />
+    <Content Include="app\d.js" />
+    <Content Include="app\f.js" />
+    <Content Include="app\fa.js" />
+    <Content Include="app\m.js" />
+    <Content Include="app\main.js" />
+    <Content Include="app\partials\b-home.html" />
+    <Content Include="app\partials\front.html" />
+    <Content Include="app\partials\p-detail.html" />
+    <Content Include="app\partials\p-diary-news.html" />
+    <Content Include="app\partials\p-diary-template.html" />
+    <Content Include="app\partials\p-diary.html" />
+    <Content Include="app\partials\p-list.html" />
+    <Content Include="app\partials\r-home.html" />
+    <Content Include="app\r.js" />
+    <Content Include="app\s.js" />
+    <Content Include="bower_components\requirejs\require.js" />
+    <Content Include="data\blogs.js" />
+    <Content Include="data\news.js" />
+    <Content Include="data\portfolio.js" />
+    <Content Include="data\resume.js" />
+    <Content Include="data\tweet.js" />
+    <Content Include="images\MCTS_70_515.png" />
+    <Content Include="images\p\agentProv.jpg" />
+    <Content Include="images\p\canonCamera.PNG" />
+    <Content Include="images\p\canoncamera_eos550d.PNG" />
+    <Content Include="images\p\canoneos60d.PNG" />
+    <Content Include="images\p\cdptravissully.jpg" />
+    <Content Include="images\p\experiahotshots.png" />
+    <Content Include="images\p\experiahotshot_full.png" />
+    <Content Include="images\p\t_309390e9-d812-4af5-873c-0bcd30a05fd0.PNG" />
+    <Content Include="images\p\t_4e290c13-eea4-4bc1-b612-44c3e937aea3.PNG" />
+    <Content Include="images\p\t_5eb0b936-47a1-4462-bdcf-2cf3f88d57f9.PNG" />
+    <Content Include="images\p\t_69c944b5-da2b-495e-be71-ab879c81583f.jpg" />
+    <Content Include="images\p\t_6a15dedb-e0bf-4296-8f5a-b0129f861599.PNG" />
+    <Content Include="images\p\t_88034633-250f-4474-9613-c28a2176346c.png" />
+    <Content Include="images\p\t_9ad5c3c7-948c-4448-b39f-2d4147731547.jpg" />
+    <Content Include="images\p\t_canoncamera.PNG" />
+    <Content Include="images\p\t_experiaFull.png" />
+    <Content Include="index.html" />
+    <Content Include="node_modules\asyncjs\demo\assets\1.txt" />
+    <Content Include="node_modules\asyncjs\demo\assets\2.txt" />
+    <Content Include="node_modules\asyncjs\demo\assets\3.txt" />
+    <Content Include="node_modules\asyncjs\demo\chaining.js" />
+    <Content Include="node_modules\asyncjs\demo\du.js" />
+    <Content Include="node_modules\asyncjs\demo\filewalker.js" />
+    <Content Include="node_modules\asyncjs\demo\find.js" />
+    <Content Include="node_modules\asyncjs\demo\fs.js" />
+    <Content Include="node_modules\asyncjs\demo\grep.js" />
+    <Content Include="node_modules\asyncjs\demo\ls.js" />
+    <Content Include="node_modules\asyncjs\index.js" />
+    <Content Include="node_modules\asyncjs\lib\async.js" />
+    <Content Include="node_modules\asyncjs\lib\plugins\fs-node.js" />
+    <Content Include="node_modules\asyncjs\lib\plugins\shortcuts.js" />
+    <Content Include="node_modules\asyncjs\lib\plugins\utils.js" />
+    <Content Include="node_modules\asyncjs\lib\test.js" />
+    <Content Include="node_modules\asyncjs\test\all.js" />
+    <Content Include="node_modules\asyncjs\test\assets\1.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\11.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\2.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\3.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\dir11\11.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\dir1\1.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\dir2\2.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\nonemptydir\4.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\walk\1.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\walk\dir1\1.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\walk\dir2\2.txt" />
+    <Content Include="node_modules\asyncjs\test\assets\walk\dir2\dir22\22.txt" />
+    <Content Include="node_modules\asyncjs\test\async.test.js" />
+    <Content Include="node_modules\asyncjs\test\fs.test.js" />
+    <Content Include="scripts\methods.js" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\reset.css" />
+    <Content Include="tests\main_test.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60403</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60403/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
