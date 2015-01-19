@@ -1,1 +1,0 @@
-var nhapp=angular.module("nhcom",["ngRoute","ngResource","nhRoutes","ngSanitize","nhControllers","nhFilters","nhDirectives","nhServices","nhFactories"]);
