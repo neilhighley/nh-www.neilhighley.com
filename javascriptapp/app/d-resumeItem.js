@@ -7,7 +7,7 @@ nhDirectives.directive("resumeItem",[function(){
         t+="<div class='ri-item-client'>{{data.client}}</div>";
         t+="<div class='ri-item-description'>{{data.description}}</div>";
         t+="<div class='ri-item-date'>{{data.fromDate}} to {{data.toDate}}</div>";
-        t+="<div class='ri-item-content'>{{data.content}}</div>";
+        t+="<div class='ri-item-content' ng-bind-html='data.content'></div>";
         t+="<div class='ri-references'>";
         t+="<div class='ri-reference' ng-repeat='ref in data.references'>";
         t+=" <div class='ri-reference-content' ng-bind-html='ref.content'></div>";

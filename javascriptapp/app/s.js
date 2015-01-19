@@ -21,7 +21,7 @@ nhServices.service("ResumeService",function(){
 
 nhServices.service("WordpressService",function(){
     this.GetBlogsAsync=function(){
-        return $.ajax({url:"/data/blogs.js"});
+        return $.ajax({url:"http://blog.neilhighley.com/wp-json/posts"});
     };
 
 });
