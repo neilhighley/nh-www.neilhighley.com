@@ -1,0 +1,23 @@
+﻿<Window x:Class="admin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Administration - NeilHighley.com" Height="600" Width="800">
+    <Grid>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="800">
+            <MenuItem Header="_Data Update">
+                <MenuItem Header="_Resume" Click="ResumeDetails_Click"></MenuItem>
+
+                <MenuItem Header="_Portfolio" Click="PortfolioDetails_Click"></MenuItem>
+                <MenuItem Header="_Misc" Click="MiscDetails_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Site Status">
+                <MenuItem Header="_www" Click="MainSiteCheck_Click"></MenuItem>
+                <MenuItem Header="_blog" Click="BlogSiteCheck_Click"></MenuItem>
+                <MenuItem Header="_StudioMecha Sites" >
+                    <MenuItem Header="_www" Click="StudioMechaMainCheck_Click"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>    
+       
+    </Grid>
+</Window>
