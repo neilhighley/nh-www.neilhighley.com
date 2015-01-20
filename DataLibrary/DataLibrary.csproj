@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="CassContext.cs" />
     <Compile Include="JsonExtensions.cs" />
+    <Compile Include="Models\PortfolioImage.cs" />
     <Compile Include="Models\PortfolioItemModel.cs" />
     <Compile Include="Models\PortfolioModel.cs" />
     <Compile Include="Models\ResumeItemModel.cs" />

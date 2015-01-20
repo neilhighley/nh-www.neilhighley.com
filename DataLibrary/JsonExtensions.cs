@@ -14,7 +14,7 @@ namespace DataLibrary.Extensions
         {
             return "";
         }
-        public static string ToJson(this ResumeItemModel pim)
+        public static string ToJson(this ResumeItemModel rim)
         {
             return "";
         }

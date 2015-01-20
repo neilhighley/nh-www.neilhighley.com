@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DataLibrary.Models
 {
-    public class PortfolioItemModel
+    public class SiteImage
     {
-        public int Id { get; set; }
+        public string Source { get; set; }
         public string Title { get; set; }
-        public SiteImage[] Images { get; set; }
+        
     }
 }
