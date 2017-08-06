@@ -27,6 +27,14 @@ nhRoutes.config(['$routeProvider',
         templateUrl: 'app/partials/b-home.html',
         controller: 'BlogCtrl'
       }).
+     when('/hack', {
+        templateUrl: 'app/partials/h-home.html',
+        controller: 'HackCtrl'
+      }).
+         when('/apps', {
+        templateUrl: 'app/partials/a-home.html',
+        controller: 'AppCtrl'
+      }).
        when('/resume', {
         templateUrl: 'app/partials/r-home.html',
         controller: 'ResumeCtrl'

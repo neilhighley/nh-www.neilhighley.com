@@ -47,6 +47,9 @@ nhControllers.controller("ResumeCtrl",["$scope","ResumeService",function($scope,
 nhControllers.controller("BlogCtrl",["$scope","WordpressService",function($scope, WordpressService){
      $scope.Blogs=WordpressService.GetBlogsAsync();
 }]);
+nhControllers.controller("HackCtrl",["$scope",function($scope){
+    
+}]);
 
 nhControllers.controller("HomeCtrl",["$scope","$routeParams","$location",function($scope,$routeParams,$location){
    $scope.timenow=Date.now(); 
@@ -62,6 +65,12 @@ nhControllers.controller("HomeCtrl",["$scope","$routeParams","$location",functio
    }
     $scope.GoResume=function(){
         $location.path('resume');
+   }
+     $scope.GoHack=function(){
+        $location.path('hack');
+   }
+     $scope.GoApps=function(){
+        $location.path('apps');
    }
    
 }]);
