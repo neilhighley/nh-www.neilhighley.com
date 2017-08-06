@@ -12,12 +12,20 @@ nhRoutes.config(['$routeProvider',
       }).
       
       when('/portfolio', {
-        templateUrl: 'app/partials/p-list.html',
-        controller: 'PortfolioListCtrl'
+          templateUrl: 'app/partials/p-list.html',
+          controller: 'PortfolioListCtrl'
       }).
       when('/portfolio/:pId', {
-        templateUrl: 'app/partials/p-detail.html',
-        controller: 'PortfolioDetailCtrl'
+          templateUrl: 'app/partials/p-detail.html',
+          controller: 'PortfolioDetailCtrl'
+      }).
+        when('/game-portfolio', {
+            templateUrl: 'app/partials/pg-list.html',
+            controller: 'GamePortfolioListCtrl'
+        }).
+      when('/game-portfolio/:pId', {
+          templateUrl: 'app/partials/pg-detail.html',
+          controller: 'GamePortfolioDetailCtrl'
       }).
        when('/pdiary', {
         templateUrl: 'app/partials/p-diary.html',

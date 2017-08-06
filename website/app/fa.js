@@ -16,19 +16,18 @@ nhFactories.factory("WordpressFactory2",function($resource){
 });
 
 
-/*
- app.factory('Notes', ['$resource', function($resource) {
-return $resource('/notes/:id', null,
-    {
-        'update': { method:'PUT' }
-    });
-}]);
-*/
-
-nhFactories.factory("PortfolioFactory",function($q){
+nhFactories.factory("PortfolioFactory", function ($q) {
     return {
-        GetPortfolios:function(){
-             var promise= $.ajax({url:"/data/portfolio.js"});
+        GetPortfolios: function () {
+            var promise = $.ajax({ url: "/data/portfolio.js" });
+            return promise;
+        }
+    }
+});
+nhFactories.factory("PortfolioGameFactory", function ($q) {
+    return {
+        GetPortfolios: function () {
+            var promise = $.ajax({ url: "/data/game-portfolio.js" });
             return promise;
         }
     }

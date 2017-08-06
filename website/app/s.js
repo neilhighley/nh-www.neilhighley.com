@@ -1,9 +1,14 @@
 //services
 var nhServices = angular.module('nhServices', []);
 
-nhServices.service("PortfolioService",function(){
-    this.GetItems=function(){
-        return $.ajax({url:"/data/portfolio.js"});
+nhServices.service("PortfolioService", function () {
+    this.GetItems = function () {
+        return $.ajax({ url: "/data/portfolio.js" });
+    }
+});
+nhServices.service("GamePortfolioService", function () {
+    this.GetItems = function () {
+        return $.ajax({ url: "/data/game-portfolio.js" });
     }
 });
 

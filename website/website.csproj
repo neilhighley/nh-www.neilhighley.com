@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,6 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabases>false</PublishDatabases>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,11 +59,48 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\d-gamePortfolioItem.js" />
+    <Content Include="app\partials\a-home.html" />
+    <Content Include="app\partials\h-home.html" />
+    <Content Include="app\partials\pg-detail.html" />
+    <Content Include="app\partials\pg-list.html" />
     <Content Include="bower_components\requirejs\.bower.json" />
     <Content Include="bower_components\requirejs\bower.json" />
     <Content Include="bower_components\requirejs\README.md" />
+    <Content Include="data\game-portfolio.js" />
     <Content Include="files\resume.docx" />
     <Content Include="files\resume.pdf" />
+    <Content Include="games-files\crosspollen.swf" />
+    <Content Include="games-files\crosspollen_300804.swf" />
+    <Content Include="games-files\elements.001.swf" />
+    <Content Include="games-files\elements.swf" />
+    <Content Include="games-files\happynewyear2003.swf" />
+    <Content Include="games-files\switch\beach.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="games-files\switch\fishy.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="games-files\switch\game_63.swf" />
+    <Content Include="games-files\switch\gondola.swf" />
+    <Content Include="games-files\switch\penguinfishing.swf" />
+    <Content Include="games-files\switch\penguinsjumping.swf" />
+    <Content Include="games-files\switch\penguinskating.swf" />
+    <Content Include="images\p\c172c084-8970-4e1a-8350-045640651006.png" />
+    <Content Include="images\p\canyouflickit.jpg" />
+    <Content Include="images\p\cdp_drawer.jpg" />
+    <Content Include="images\p\cdp_main.jpg" />
+    <Content Include="images\p\creativeBrief_screen.jpg" />
+    <Content Include="images\p\NEC-screenshot_sml.jpg" />
+    <Content Include="images\p\solidState_screenshot.jpg" />
+    <Content Include="images\p\switchGame_med.jpg" />
+    <Content Include="images\p\switchGame_screenshot.jpg" />
+    <Content Include="images\p\switchGame_sml.jpg" />
+    <Content Include="images\p\yakult.jpg" />
+    <Content Include="level.1.18.xml" />
+    <Content Include="level.2.6.xml" />
+    <Content Include="level.3.10.xml" />
+    <Content Include="level.3.9.xml" />
     <Content Include="node_modules\asyncjs\.c9revisions\package.json" />
     <Content Include="node_modules\asyncjs\.c9revisions\package.json.c9save" />
     <Content Include="node_modules\asyncjs\.npmignore" />
@@ -77,6 +116,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="XMLExtensions.as" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\c.js" />

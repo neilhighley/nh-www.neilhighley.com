@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<Level Number='1'>
+<Item Type='platform10' posX='360' posY='180'></Item>
+<Item Type='platform10' posX='660' posY='600'></Item>
+<Item Type='platform10' posX='1180' posY='140'></Item>
+<Item Type='platform10' posX='1740' posY='640'></Item>
+<Item Type='platform10' posX='2520' posY='200'></Item>
+<Item Type='platform10' posX='1920' posY='80'></Item>
+<Item Type='platform10' posX='2220' posY='340'></Item>
+<Item Type='platform1' posX='2540' posY='380'></Item>
+<Item Type='platform1' posX='2700' posY='380'></Item>
+<Item Type='platform1' posX='2880' posY='380'></Item>
+<Item Type='platform2' posX='2840' posY='680'></Item>
+<Item Type='platform2' posX='2660' posY='680'></Item>
+<Item Type='platform2' posX='2480' posY='680'></Item>
+<Item Type='coin4' posX='2800' posY='580'></Item><Item Type='coin1' posX='320' posY='700'></Item><Item Type='coin1' posX='800' posY='60'></Item><Item Type='coin1' posX='1240' posY='700'></Item><Item Type='coin1' posX='1520' posY='60'></Item><Item Type='coin1' posX='1920' posY='380'></Item><Item Type='coin1' posX='1960' posY='660'></Item><Item Type='coin1' posX='2660' posY='540'></Item><Item Type='coin1' posX='2460' posY='140'></Item><Item Type='coin2' posX='80' posY='160'></Item><Item Type='coin2' posX='440' posY='580'></Item><Item Type='coin2' posX='460' posY='60'></Item><Item Type='coin2' posX='80' posY='620'></Item><Item Type='coin2' posX='840' posY='480'></Item><Item Type='coin2' posX='1260' posY='60'></Item><Item Type='coin2' posX='1620' posY='660'></Item><Item Type='coin2' posX='2220' posY='60'></Item><Item Type='coin2' posX='2200' posY='640'></Item><Item Type='coin2' posX='2920' posY='240'></Item><Item Type='coin2' posX='2640' posY='240'></Item><Item Type='coin2' posX='1260' posY='440'></Item><Item Type='coin2' posX='2140' posY='60'></Item><Item Type='bad3' posX='200' posY='440'></Item><Item Type='bad3' posX='1420' posY='220'></Item><Item Type='bad3' posX='1440' posY='520'></Item><Item Type='bad3' posX='2040' posY='220'></Item><Item Type='bad3' posX='2340' posY='500'></Item><Item Type='bad4' posX='2860' posY='740'></Item><Item Type='bad4' posX='2580' posY='740'></Item><Item Type='coin1' posX='680' posY='240'></Item><Item Type='coin1' posX='220' posY='140'></Item><Item Type='coin1' posX='60' posY='420'></Item><Item Type='coin1' posX='2620' posY='120'></Item></Level>
