@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Lights - A-Frame</title>
+    <meta name="description" content="Dynamic Lights - A-Frame">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="../../../dist/aframe-master.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@3.2.5/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-randomizer-components@3.0.2/dist/aframe-randomizer-components.min.js"></script>
+    <script src="https://unpkg.com/aframe-entity-generator-component@3.0.1/dist/aframe-entity-generator-component.min.js"></script>
+    <script src="https://rawgit.com/caseyyee/aframe-ui-widgets/master/dist/ui-widgets.min.js"></script>
+
+
+    <script>
+      AFRAME.registerComponent('random-material', {
+        init: function () {
+          this.el.setAttribute('material', {
+            color: this.getRandomColor(),
+            metalness: Math.random(),
+            roughness: Math.random()
+          });
+        },
+
+        getRandomColor: function () {
+          var letters = '0123456789ABCDEF'.split('');
+          var color = '#';
+          for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+          }
+          return color;
+        }
+      });
+
+      AFRAME.registerComponent('random-torus-knot', {
+        init: function () {
+          this.el.setAttribute('geometry', {
+            primitive: 'torusKnot',
+            radius: Math.random() * 10,
+            radiusTubular: Math.random() * .75,
+            p: Math.round(Math.random() * 10),
+            q: Math.round(Math.random() * 10)
+          });
+        }
+      });
+    </script>
+</head>
+<body>
+    <a-scene>
+        <a-entity hand-controls="left"></a-entity>
+        <a-entity hand-controls="right"></a-entity>
+        <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
+        <a-assets>
+            <a-mixin id="light"
+                     geometry="primitive: sphere; radius: 1.5"
+                     material="color: #FFF; shader: flat"
+                     light="color: #DDDDFF; distance: 120; intensity: 2; type: point"></a-mixin>
+            <a-mixin id="torusKnot"
+                     random-torus-knot
+                     random-material
+                     random-position="min: -60 -60 -80; max: 60 60 40"></a-mixin>
+            <a-mixin id="text"
+                     text="align: center; width: 40; color: red;
+               value: neilhighley.com"></a-mixin>
+           
+        </a-assets>
+
+        <!-- Use entity-generator component to generate 120 entities with the torusKnot mixin. -->
+        <a-entity entity-generator="mixin: torusKnot; num: 10"></a-entity>
+
+        <!-- Some Text -->
+        <a-text mixin="text" font="kelsonsans" position="3 40 -300" wrap-count="20"></a-text>
+        <a-text mixin="text" font="kelsonsans" position="3 0 -100" wrap-count="20"></a-text>
+        <a-text mixin="text" font="kelsonsans" position="3 -10 -50" wrap-count="20"></a-text>
+
+        <!-- Skysphere. -->
+        <a-sky color="#117"></a-sky>
+
+        <!-- Lights. -->
+        <a-entity animation="property: rotation; to: 0 0 360; dur: 4000; easing: linear; loop: true">
+            <a-entity mixin="light" position="30 0 0"></a-entity>
+        </a-entity>
+
+        <a-entity animation="property: rotation; to: 360 0 0; dur: 4000; easing: linear; loop: true">
+            <a-entity mixin="light" position="0 0 40"></a-entity>
+        </a-entity>
+        <a-entity position="0 2 3.7">
+            <a-entity camera look-controls wasd-controls></a-entity>
+        </a-entity>
+    </a-scene>
+</body>
+</html>

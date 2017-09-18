@@ -1,36 +1,38 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>neilhighley.com - internet development - mobile development - csharp - javascript</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="/styles/reset.css"></link>
+<link rel="stylesheet" href="/styles/reset.css"/>
+<link rel="stylesheet" href="/styles/fonts.css" />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"></link>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap-theme.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap-theme.css"/>
 
-<link rel="stylesheet" href="/styles/main.css"></link>
+<link rel="stylesheet" href="/styles/main.css"/>
 
 </head>
 <body ng-app="nhcom">
-	<div class="content-wrapper">
+	<div class="content-wrapper">              
 		<div class="content-container">
-			<h1 class="container-fluid main-header" ng-controller="HeaderCtrl">
+			<header class="container-fluid main-header" ng-controller="HeaderCtrl">
 			  <span class="align-left title" ng-click="GoHome()" title="Return to the home page link">neilhighley.com</span><br/>
 			  <span class="align-left subtitle">internet - games - mobile</span>
-			</h1>
+			</header>
 
-			<div ng-view class="container-fluid"> </div>
+			<main ng-view class="container-fluid"> </main>
 		</div>
-		<div class="content-footer row">
-			<div class="footer-detail col-md-4 col-md-offset-4">
+		<footer class="content-footer row">
+			<div class="footer-detail col-md-4">
 				<ul>
 					<li>Technologies utilised: Cassandra, Javascript, NodeJS, ASP.NET, C#, MVC5, WebAPI, HTML, MSSQL, CSS</li>
 				    <li> created by: <a href="mailto:neil@neilhighley.com">neil@neilhighley.com</a></li>
 				    <li><a href="https://github.com/neilhighley">Git</a> | <a href="https://twitter.com/neilhighley">Twitter</a> | <a href="https://plus.google.com/+NeilHighley">G+</a></li>
 				</ul>
 			</div>
-		</div>
+		</footer>
 	</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -50,8 +52,9 @@
 <script src="/app/d.js"></script>
 <script src="/app/d-diaryListDirective.js"></script>
 <script src="/app/d-blogListing.js"></script>
-    <script src="/app/d-portfolioItem.js"></script>
-    <script src="/app/d-gamePortfolioItem.js"></script>
+<script src="/app/d-portfolioItem.js"></script>
+<script src="/app/d-gamePortfolioItem.js"></script>
+<script src="/app/d-virtualRealityItem.js"></script>
 <script src="/app/d-resumeItem.js"></script>
 
 <script src="/app/r.js"></script>
@@ -59,11 +62,8 @@
 <script src="/app/fa.js"></script>
 
 
-<script src="/app/main.js"></script>
-
-<script>
-
-</script>
+<script src="/app/main.js"></script> 
+<script src="/app/formatting.js"></script>
 
 
 <!-- Twitter API -->

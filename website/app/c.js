@@ -47,6 +47,21 @@ nhControllers.controller("GamePortfolioListCtrl", ["$scope", "GamePortfolioServi
 
 }]);
 
+nhControllers.controller("VirtualRealityCtrl", ["$scope", "VirtualRealityService", function ($scope, VirtualRealityService) {
+    VirtualRealityService.GetItems().then(function (response) {
+        $scope.$apply(function () {
+            $scope.VirtualRealityItems = eval(response);
+        })
+    })
+}]);
+nhControllers.controller("VirtualRealityItemCtrl", ["$scope", "$route","VirtualRealityService", function ($scope, $route,VirtualRealityService) {
+    VirtualRealityService.GetItems().then(function (response) {
+        $scope.$apply(function () {
+            $scope.VirtualRealityItem = response[vrId];
+        })
+    })
+}]);
+
 nhControllers.controller("ResumeCtrl",["$scope","ResumeService",function($scope,ResumeService){
     
      ResumeService.GetEntries().then(function(response){
@@ -76,8 +91,14 @@ nhControllers.controller("HomeCtrl",["$scope","$routeParams","$location",functio
    $scope.GoGamePortfolio = function () {
        $location.path('game-portfolio');
    }
-    $scope.GoPortfolioLightbox=function(){
-        $location.path('portfolio');
+   $scope.GoPortfolioLightbox = function () {
+       $location.path('portfolio');
+   }
+   $scope.GoVirtualReality = function () {
+       $location.path('virtual-reality');
+   }
+   $scope.GoVirtualRealityItem = function () {
+       $location.path('virtual-reality-item');
    }
     $scope.GoBlog=function(){
         $location.path('blog');

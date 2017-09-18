@@ -9,10 +9,10 @@ nhDirectives.directive("gamePortfolioItem",[function(){
     }
     function CreateHTML(data) {
 
-        var t = "";
+        var t = "<article>";
         
         t+="<div class='pi-item col-md-6 col-xs-12'>";
-        t+="<div class='pi-item-title'>"+data.title+"</div>";
+        t += "<div class='pi-item-title mobile-ad'>" + data.title + "</div>";
         t += "<div class='pi-item-description'>" + data.description + "</div>";
         if (data.type == "flash") {
             t += "";
@@ -42,7 +42,7 @@ nhDirectives.directive("gamePortfolioItem",[function(){
         if(data.tags!=undefined){
             t+="<div class='pi-item-tags'>"+data.tags+"</div>";
         }
-        t+="</div>";
+        t+="</div></article>";
         
         return t;
     

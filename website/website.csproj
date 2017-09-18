@@ -60,13 +60,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\d-gamePortfolioItem.js" />
+    <Content Include="app\d-virtualRealityItem.js" />
+    <Content Include="app\formatting.js" />
     <Content Include="app\partials\a-home.html" />
     <Content Include="app\partials\h-home.html" />
     <Content Include="app\partials\pg-detail.html" />
+    <Content Include="app\partials\vr-item.html" />
+    <Content Include="app\partials\vr-list.html" />
     <Content Include="app\partials\pg-list.html" />
+    <Content Include="app\partials\vr-home.html" />
     <Content Include="bower_components\requirejs\.bower.json" />
     <Content Include="bower_components\requirejs\bower.json" />
     <Content Include="bower_components\requirejs\README.md" />
+    <Content Include="data\virtual-reality.js" />
     <Content Include="data\game-portfolio.js" />
     <Content Include="files\resume.docx" />
     <Content Include="files\resume.pdf" />
@@ -116,6 +122,8 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="styles\fonts.css" />
+    <Content Include="vr-files\aframe\1.html" />
     <Content Include="XMLExtensions.as" />
   </ItemGroup>
   <ItemGroup>

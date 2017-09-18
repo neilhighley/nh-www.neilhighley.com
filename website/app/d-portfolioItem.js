@@ -3,14 +3,14 @@ nhDirectives.directive("portfolioItem",[function(){
     function GetHTML(){
         var t="";
         t+="<div class='pi-item'>";
-        t+="<div class='pi-item-title'>{{data.title}}</div>";
+        t += "<div class='pi-item-title mobile-ad'>{{data.title}}</div>";
         t+="<div class='pi-item-description'>{{data.description}}</div>";
         return t;
     }
   function CreateHTML(data){
-        var t="";
+        var t="<article>";
         t+="<div class='pi-item col-md-6 col-xs-12'>";
-        t+="<div class='pi-item-title'>"+data.title+"</div>";
+        t += "<div class='pi-item-title mobile-ad'>" + data.title + "</div>";
         t+="<div class='pi-item-description'>"+data.description+"</div>";
         if(data.date!=undefined){
             t+="<div class='pi-item-date'>"+data.date+"</div>";
@@ -30,7 +30,7 @@ nhDirectives.directive("portfolioItem",[function(){
         if(data.tags!=undefined){
             t+="<div class='pi-item-tags'>"+data.tags+"</div>";
         }
-        t+="</div>";
+        t+="</div></article>";
         
         return t;
     

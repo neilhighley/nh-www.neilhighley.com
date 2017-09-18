@@ -3,6 +3,14 @@ var PortfolioItem = function () {
     this.name = "The portfolio name";
     this.description = "Portfolio description";
 }
+var VirtualRealityItem = function () {
+    this.id = 0;
+    this.name = "The virtual reality item name";
+    this.description = "VR description";
+    this.location = "/vr/";
+    this.images = [];
+    this.type = "aframe";
+}
 var GamePortfolioItem = function () {
     this.id = 0;
     this.name = "The game portfolio name";

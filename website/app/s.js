@@ -12,6 +12,16 @@ nhServices.service("GamePortfolioService", function () {
     }
 });
 
+nhServices.service("VirtualRealityService", function () {
+    this.GetItems = function () {
+        console.log("VRS.GetItems");
+        return $.ajax({ url: "/data/virtual-reality.js" });
+    }
+    this.GetItem = function () {
+        return items[0];
+    }
+});
+
 nhServices.service("NewsApiService",function(){
     this.GetNews=function(){
         return $.ajax({url:"/data/news.js"});

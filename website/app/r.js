@@ -47,7 +47,14 @@ nhRoutes.config(['$routeProvider',
         templateUrl: 'app/partials/r-home.html',
         controller: 'ResumeCtrl'
       }).
-      
+       when('/virtual-reality/:vrId', {
+           templateUrl: 'app/partials/vr-item.html',
+           controller: 'VirtualRealityItemCtrl'
+       }).
+         when('/virtual-reality', {
+             templateUrl: 'app/partials/vr-home.html',
+             controller: 'VirtualRealityCtrl'
+         }).
       otherwise({
         redirectTo: '/home'
       });
