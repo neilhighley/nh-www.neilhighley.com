@@ -17,12 +17,14 @@ nhDirectives.directive("blogListing",["$compile",function($compile){
         t+="<ul class='b-list'>\n";
         for(var b=0;b<blogs.length;b++){
             var blog=blogs[b];
+            var keywords=blog.slug+" "+blog.title.rendered;
+           
             t+="  <li>\n";
-            t+="    <h1>"+blog.title+"</h1>\n";
-            t+="    <div class='b-link'><a target='_blank' href='"+blog.link+"'>"+blog.link+"</a></div>\n";
+            //t+="    <h1>"+blog.title.rendered+"</h1>\n";
+            t+="    <h1 class='b-link'><a target='_blank' title='"+keywords+"' href='"+blog.link+"'>"+blog.title.rendered+"</a></h1>\n";
             t+="    <h2>"+formatDate(blog.date)+"</h2>\n";
-            t+="    <div class=\"b-content\">"+blog.content+"</div>\n";
-            t+="    <div class='b-link'><a target='_blank' ref='"+blog.link+"'>"+blog.link+"</a></div>\n";
+            t+="    <div class=\"b-content\">"+blog.content.rendered+"</div>\n";
+            t+="    <div class='b-link'><a target='_blank' title='"+keywords+"' ref='"+blog.link+"'>"+blog.title.rendered+"</a></div>\n";
             t+="  </li>";
         }
         t+="</ul>";
@@ -36,7 +38,7 @@ nhDirectives.directive("blogListing",["$compile",function($compile){
         "April", "May", "June", "July", "August", "September", 
         "October", "November", "December");
         
-        var d = new Date();
+        var d = new Date(str);
         var curr_date = d.getDate();
         var curr_month = d.getMonth();
         var curr_year = d.getFullYear();
@@ -50,7 +52,7 @@ nhDirectives.directive("blogListing",["$compile",function($compile){
             element.html(CreateHTML(eval(response)));
         },
         function(response){
-           element.html("data error");
+           element.html("data error:"+JSON.stringify(response));
         });
         
     };

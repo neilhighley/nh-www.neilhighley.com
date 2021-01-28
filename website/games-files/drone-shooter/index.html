@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="manifest" href="/manifest.json"></link>
+    <meta charset="UTF-8" />
+    <style>
+      body{
+        background-color:black;
+        margin:0px auto;
+        padding:0px;
+        justify-content:center;
+        display:flex;
+        }
+    </style>
+    
+    <link href="https://fonts.googleapis.com/css?family=Modak|Roboto&display=swap" rel="stylesheet"></link>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('serviceworker.js', { scope: '/' })
+          .then(() => console.log('service worker installed'))
+          .catch(err => {
+            console.error('Error with service worker', err)
+            console.log(err)
+        });
+      }else{
+        console.log("Service worker not supported")
+      }
+    </script>
+
+  </head>
+  <body style="display:flex;justify-content:center;align-items:center;">
+      <div id="game"></div>
+  <script type="text/javascript" src="app.bundle.js"></script><script type="text/javascript" src="production-dependencies.bundle.js"></script></body>
+</html>

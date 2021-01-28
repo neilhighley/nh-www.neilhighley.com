@@ -1,0 +1,377 @@
+{
+	"textures": [
+		{
+			"image": "foreground.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1792,
+				"h": 1361
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "planewreck.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1061,
+						"h": 523
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1061,
+						"h": 523
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1061,
+						"h": 523
+					}
+				},
+				{
+					"filename": "planebody.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 890,
+						"h": 297
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 890,
+						"h": 297
+					},
+					"frame": {
+						"x": 1,
+						"y": 526,
+						"w": 890,
+						"h": 297
+					}
+				},
+				{
+					"filename": "planetail.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 577,
+						"h": 491
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 577,
+						"h": 491
+					},
+					"frame": {
+						"x": 1064,
+						"y": 1,
+						"w": 577,
+						"h": 491
+					}
+				},
+				{
+					"filename": "rubblepile2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 725,
+						"h": 265
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 725,
+						"h": 265
+					},
+					"frame": {
+						"x": 1,
+						"y": 825,
+						"w": 725,
+						"h": 265
+					}
+				},
+				{
+					"filename": "burntoutcar2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 681,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 681,
+						"h": 237
+					},
+					"frame": {
+						"x": 1,
+						"y": 1092,
+						"w": 681,
+						"h": 237
+					}
+				},
+				{
+					"filename": "burntoutcar1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 597,
+						"h": 214
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 597,
+						"h": 214
+					},
+					"frame": {
+						"x": 1064,
+						"y": 494,
+						"w": 597,
+						"h": 214
+					}
+				},
+				{
+					"filename": "tree2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 147,
+						"h": 446
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 147,
+						"h": 446
+					},
+					"frame": {
+						"x": 1643,
+						"y": 1,
+						"w": 147,
+						"h": 446
+					}
+				},
+				{
+					"filename": "tree1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 232,
+						"h": 406
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 232,
+						"h": 406
+					},
+					"frame": {
+						"x": 728,
+						"y": 825,
+						"w": 232,
+						"h": 406
+					}
+				},
+				{
+					"filename": "lampost.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 289,
+						"h": 596
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 289,
+						"h": 596
+					},
+					"frame": {
+						"x": 962,
+						"y": 710,
+						"w": 289,
+						"h": 596
+					}
+				},
+				{
+					"filename": "rubblepile1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 474,
+						"h": 194
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 474,
+						"h": 194
+					},
+					"frame": {
+						"x": 1253,
+						"y": 710,
+						"w": 474,
+						"h": 194
+					}
+				},
+				{
+					"filename": "midgroundrubble2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 455,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 455,
+						"h": 75
+					},
+					"frame": {
+						"x": 1253,
+						"y": 906,
+						"w": 455,
+						"h": 75
+					}
+				},
+				{
+					"filename": "midgroundrubble.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 422,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 422,
+						"h": 91
+					},
+					"frame": {
+						"x": 1253,
+						"y": 983,
+						"w": 422,
+						"h": 91
+					}
+				},
+				{
+					"filename": "trashcangroup.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 247,
+						"h": 209
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 209
+					},
+					"frame": {
+						"x": 1253,
+						"y": 1076,
+						"w": 247,
+						"h": 209
+					}
+				},
+				{
+					"filename": "trashcanlid.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 155,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 155,
+						"h": 196
+					},
+					"frame": {
+						"x": 1502,
+						"y": 1076,
+						"w": 155,
+						"h": 196
+					}
+				},
+				{
+					"filename": "trashcannolid.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 171
+					},
+					"frame": {
+						"x": 893,
+						"y": 526,
+						"w": 142,
+						"h": 171
+					}
+				},
+				{
+					"filename": "hydrant.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 183
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 183
+					},
+					"frame": {
+						"x": 1659,
+						"y": 1076,
+						"w": 132,
+						"h": 183
+					}
+				},
+				{
+					"filename": "trashcanonfloor.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 147,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 147,
+						"h": 127
+					},
+					"frame": {
+						"x": 684,
+						"y": 1233,
+						"w": 147,
+						"h": 127
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a0b20e262a0fc90eb90ffd0b43f376e0:06b1bfae0787700509ddbbe96d17eda1:20b5906f0bac1da75cd96cd822731771$"
+	}
+}

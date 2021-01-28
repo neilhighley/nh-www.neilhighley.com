@@ -24,13 +24,20 @@ nhDirectives.directive("gamePortfolioItem",[function(){
             t+=" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\"></embed> ";
             t+="</object> ";
         }
+	if(data.type="javascript"){
+ 	    t += "";
+ 	    t += "<a href=\""+data.location+"\" target='"+data.title+"'>Launch Game in new Window</a>";
+ 	    t += "";
+	}
         if(data.date!=undefined){
             t+="<div class='pi-item-date'>"+data.date+"</div>";
         }
         t+="<div class='pi-item-content'>";
         for(var i=0;i<data.images.length;i++){
             t+="<div class='pi-images'>";
+            t+="<a title='Play "+data.title+" now' href=\""+data.location+"\" target='"+data.title+"'>";
             t+="<img class='col-xs-11' src='"+data.images[i].src+"'/>";
+            t+="</a>";
             t+="<span class='pi-image-text col-xs-11'>"+data.images[i].name;
             if(data.images[i].date!=undefined){
                 t+=", "+data.images[i].date;

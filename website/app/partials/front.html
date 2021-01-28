@@ -5,58 +5,84 @@
     <div class="h-middle col-sm-6">
         <ul class="h-menu">
             <li>
-                <div class="hm-menuitem hm-blog">
-                    <h1 ng-click="GoBlog()" title="My Blog, items I am working on, products I have built">BLOG</h1>
+                <div class="hm-menuitem hm-blog hm-left">
+                    <button ng-click="GoBlog()" class="cybr-btn">
+                        _Blog<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_6109</span>
+                    </button>
                     <h2>Comments on technology and links to interesting items found online</h2>
                 </div>
             </li>
             <li>
-                <div class="hm-menuitem hm-resume">
-                    <h1 ng-click="GoResume()" title="Details of contracts and work completed. Download docx here.">RESUME</h1>
+                <div class="hm-menuitem hm-blog hm-left">
+                    <button ng-click="GoResume()" title="Details of contracts and work completed. Download docx here." class="cybr-btn">
+                        _Resume<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_732683</span>
+                    </button>
                     <h2>View my resume or download it in <a href="/files/resume.docx" target="_blank" title="Download DOCX resume for neil highley">docx</a> or <a title="Download PDF resume for neil highley" href="/files/resume.pdf" target="_blank">pdf</a> formats</h2>
                 </div>
             </li>
-           <li>
-                <div class="hm-menuitem hm-portfolio">
-                    <h1 ng-click="GoPortfolioLightbox()" title="Simple lightbox portfolio">lbPORTFOLIO</h1>
+            <li>
+                <div class="hm-menuitem hm-blog hm-left">
+                    <button ng-click="GoPortfolioLightbox()" title="Simple lightbox portfolio" class="cybr-btn">
+                        _lifePORTFOLIO<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_7153907240710</span>
+                    </button>
                     <h2>View a portfolio presentation of projects which I have been involved with</h2>
                 </div>
             </li>
             <li style="display:none">
-                <div class="hm-menuitem hm-portfolio">
-                    <h1 ng-click="GoPortfolio()" title="Examples of work over the years in a diary format">dPORTFOLIO</h1>
+                <div class="hm-menuitem hm-blog hm-left">
+                    <button ng-click="GoPortfolio()" title="Examples of work over the years in a diary format" class="cybr-btn">
+                        _PORTFOLIO<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_7153907240710</span>
+                    </button>
                     <h2>WIP: Experiment tilising a chronological menu for a portfolio diary using TweenMax and Angular</h2>
                 </div>
             </li>
             <li>
-                <div class="hm-menuitem hm-gameportfolio">
-                    <h1 ng-click="GoGamePortfolio()" title="Examples of games work over the years in a diary format">gPORTFOLIO</h1>
-                    <h2>Some work done using flash, back in the day</h2>
+                <div class="hm-menuitem  hm-left">
+                    <button ng-click="GoGamePortfolio()" title="Examples of games work over the years in a diary format" class="cybr-btn">
+                        _Games<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_64832/span>
+                    </button>
+                    <h2>Some games, some in HTML5/ES6, some in flash, some recent, some back in the day</h2>
                 </div>
             </li>
             <li>
-                <div class="hm-menuitem hm-vrportfolio">
-                    <h1 ng-click="GoVirtualReality()" title="Some Virtual Reality Tests and things I've been working on'">vrPORTFOLIO</h1>
+                <div class="hm-menuitem hm-vrportfolio hm-left">
+                    <button ng-click="GoVirtualReality()" title="Some Virtual Reality Tests and things I've been working on" class="cybr-btn">
+                        _VirtualReality<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_v1r7u4lr34l17y</span>
+                    </button>
                     <h2>And here we are, VR</h2>
                 </div>
             </li>
-              <li>
-                <div class="hm-menuitem hm-hack">
-                    <h1 ng-click="GoHack()" title="Details of hackathons attended">HACKATHONS</h1>
-                    <h2>I attend many hackathons as a hobby, you can see some of my projects here and on devpost</h2>
+            <li>
+                <div class="hm-menuitem hm-hack hm-left">
+                    <button ng-click="GoHack()" title="Details of hackathons attended" class="cybr-btn">
+                        _Hackathons<span aria-hidden></span>
+                        <span aria-hidden class="cybr-btn__glitch">_h4ck47h0n5</span>
+                    </button>
+                    <h2>
+                        I attend many hackathons as a hobby, you can see some of my projects here and on devpost
+                    </h2>
                 </div>
             </li>
             <li>
-                <div class="hm-menuitem hm-hack">
-                    <h1 ng-click="GoApps()" title="Details of mobile apps developed and on teh stores">MOBILE APPS</h1>
+                <div class="hm-menuitem hm-hack hm-left">
+                    <button ng-click="GoApps()"  title="Details of mobile apps developed and on the stores" class="cybr-btn">
+                        _MobileApps<span aria-hidden></span>
+                                   <span aria-hidden class="cybr-btn__glitch">_|\\/|08!134|>|>5</span>
+                    </button>
                     <h2>Details of some of the mobile apps that I created currently on the respective app stores</h2>
                 </div>
             </li>
-            
+
         </ul>
         
     </div>
     <div class="h-right col-sm-4">
-    
+        <game-attract/>
     </div>
 </nav>

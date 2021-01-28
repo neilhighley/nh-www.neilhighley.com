@@ -1,0 +1,293 @@
+{
+	"textures": [
+		{
+			"image": "dronesheet.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 495,
+				"h": 911
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "quadcopter1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 399,
+						"h": 253
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 399,
+						"h": 253
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 399,
+						"h": 253
+					}
+				},
+				{
+					"filename": "quadcopter0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 409,
+						"h": 240
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 409,
+						"h": 240
+					},
+					"frame": {
+						"x": 1,
+						"y": 256,
+						"w": 409,
+						"h": 240
+					}
+				},
+				{
+					"filename": "regularexplosion03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 102
+					},
+					"frame": {
+						"x": 402,
+						"y": 1,
+						"w": 92,
+						"h": 102
+					}
+				},
+				{
+					"filename": "regularexplosion02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 91
+					},
+					"frame": {
+						"x": 402,
+						"y": 105,
+						"w": 82,
+						"h": 91
+					}
+				},
+				{
+					"filename": "regularexplosion00",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 192
+					},
+					"frame": {
+						"x": 1,
+						"y": 498,
+						"w": 192,
+						"h": 192
+					}
+				},
+				{
+					"filename": "regularexplosion08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 149,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 149,
+						"h": 151
+					},
+					"frame": {
+						"x": 195,
+						"y": 498,
+						"w": 149,
+						"h": 151
+					}
+				},
+				{
+					"filename": "regularexplosion01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 150
+					},
+					"frame": {
+						"x": 195,
+						"y": 651,
+						"w": 152,
+						"h": 150
+					}
+				},
+				{
+					"filename": "regularexplosion07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 143,
+						"h": 144
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 143,
+						"h": 144
+					},
+					"frame": {
+						"x": 346,
+						"y": 498,
+						"w": 143,
+						"h": 144
+					}
+				},
+				{
+					"filename": "regularexplosion06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 140
+					},
+					"frame": {
+						"x": 1,
+						"y": 692,
+						"w": 138,
+						"h": 140
+					}
+				},
+				{
+					"filename": "regularexplosion05",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 134
+					},
+					"frame": {
+						"x": 349,
+						"y": 644,
+						"w": 133,
+						"h": 134
+					}
+				},
+				{
+					"filename": "regularexplosion04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 124
+					},
+					"frame": {
+						"x": 349,
+						"y": 780,
+						"w": 120,
+						"h": 124
+					}
+				},
+				{
+					"filename": "textwars",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 195,
+						"h": 61
+					},
+					"frame": {
+						"x": 141,
+						"y": 803,
+						"w": 195,
+						"h": 61
+					}
+				},
+				{
+					"filename": "textdrone",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 195,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 193,
+						"h": 44
+					},
+					"frame": {
+						"x": 1,
+						"y": 866,
+						"w": 193,
+						"h": 44
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c28192eae2d1c687548cccd421ceca5f:29c10792e85a8e7621548a6bb3e521df:09b96b659c8875f9839f911f5943b2b0$"
+	}
+}

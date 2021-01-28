@@ -1,5 +1,54 @@
 [
     {
+        id:"13",
+        title:"C# Software Engineer",
+        client:"SalonGENIUS, Bournemouth",
+        description:"Developer support for retail epos company.",
+        tags:"WPF / Azure / C# / SQL / DevOps / TFS / Sharepoint / VB6 / Hyper V / DevExpress / XUnit / MS.Test / Visual Studio 2008-2019 / VS Code",
+        content:"Joined multinational retail organisation to migrate systems to modern software technology and software development pipelines." +
+        "<br/>Technical lead on Future Software development implementing DevExpress components as a standard set for all tooling to aid in onboarding and reducing maintenance complexity."+
+        "<br/>Migrated source control systems from internal TFS to external Azure DevOps. Implemented Automated testing and delivery to key projects. Created translation tool utilising Microsoft Cognitive Framework."+
+        "<br/>Implemented .Net Standard C# for several COM interop projects to facilitate migration from legacy VB6 systems."+
+        "<br/>Worked with Verifone and SagePay and LayBuy to implement updated PDQ EPOS systems for bricks and mortar retail units using REST API."+
+        "<br/>Created installers using Visual Studio Setup Deployments and Wix"+
+        "<br/>Created Sharepoint based Knowledge Management instruments and tooling to aid in documenting common tasks and software development policy."+
+        "<br/>Introduced Test Driven Design concepts and mentored the team on writing tests using Xunit and MS.Test for new, and existing, code bases, as well as ensuring new code is written to facilitate easier testing and maintenance."+
+        "<br/>Technical lead and Agile SCRUM advocate, managed release and development pipeline for internal software projects with Azure Devops"+
+        "",
+        fromDate:"May 2018",
+        toDate:"November 2019"
+    },
+    {
+        id:"12",
+        title:"C# Industrial Software Engineer",
+        client:"ASM Systems, Weymouth",
+        description:"Industrial machine operating software developed for the Surface Mount Manufacturing industry.",
+        tags:"ASP.NET 4 / 4.5 / C# / WPF / LINQ / jQuery / Javascript / HTML / REST / WCF / XML / XSL / Visual Studio 2013 / 2015 / VSCode / Resharper / dotCover / dotTrace / Codemaid / JIRA / MSSQL 2008 r2 / SQL / IIS8 / Windows Server / TDD / Nunit / dotCover / Hardware / Baldor systems / Industrial Engineering",
+        content:"Joined large, global, multi-scrum, Agile team working on service and desktop software with C# industrial robotics for an industry leading SMT manufacturer.  <br/>Followed bug sprints on JIRA and new projects cross team, mentoring existing team members to incorporate full TDD development with high hit-rate coverage and automated testing.<br/>Software involved parallel process management and hardware adapters with a WinForms 2 User Interface and XAML tools for testing with an Automation layer for line control software based on SOAP WCF.<br/>Created tooling in XAML and ReactJS to allow Testing team to create scenarios for testing and help debug and test systems.",
+        fromDate:"February 2016",
+        toDate:"April 2018"
+    },
+    {
+        id:"11",
+        title:"C# ASP.net and signalR development",
+        client:"TheTin, London",
+        description:"Helped in final stages of Auction Site for leading London marketing company",
+        tags:"ASP.NET 4 / 4.5 / C# / LINQ / jQuery / Javascript / REST /  XML / Visual Studio 2053 / Resharper / SQL 2008 r2 / IIS8 / Windows Server / MSSQL /  CSS3 / HTML / TDD / KnockoutJS / Azure",
+        content:"Joined small team as part of a push to release for a disruptive, Cloud base auction site running C#  and KnockoutJS on Azure web Application",
+        fromDate:"November 2015",
+        toDate:"January 2016"
+    },
+    {
+        id:"10",
+        title:"C#,  Windows Services, WCF, WebAPI, MSMQ,  Azure, MSSQL, Various Internet APIs REST, Javascript",
+        client:"AIMedia Comms, London.",
+        description:"asp.net and Javascript, facebook application and bespoke development",
+        tags:"ASP.NET 4 / 4.5 / C# / LINQ / jQuery / Javascript / REST /  XML /   Nunit / nHibernate /  Visual Studio 2013 / Resharper / SQL 2008 r2 / IIS8 / Windows Server / Windows Services / asynchronous development /  MSSQL / MSMQ / CSS3 / HTML / TDD / WCF / Services",
+        content:"Joined medium size team expanding and updating current application platforms. Implemented Facebook, twitter integration and cloud based workflow into existing applications. Introduced a microservices architecture into several systems as part of cloud migration",
+        fromDate:"February 2015",
+        toDate:"November 2015"
+    },
+    {
     id:"1",
     title:"C#, winforms, windows services, MSMQ, Oracle, MSSQL, Various Internet APIs",
     client:"Precise Media, London",

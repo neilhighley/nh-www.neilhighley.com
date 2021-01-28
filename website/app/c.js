@@ -42,7 +42,7 @@ nhControllers.controller("GamePortfolioListCtrl", ["$scope", "GamePortfolioServi
         });
     },
     function (response) {
-        console.log("error");
+        console.log("error",response);
     });
 
 }]);
@@ -79,6 +79,9 @@ nhControllers.controller("BlogCtrl",["$scope","WordpressService",function($scope
      $scope.Blogs=WordpressService.GetBlogsAsync();
 }]);
 nhControllers.controller("HackCtrl",["$scope",function($scope){
+    
+}]);
+nhControllers.controller("GameAttractCtrl",["$scope",function($scope){
     
 }]);
 

@@ -36,7 +36,9 @@ nhServices.service("ResumeService",function(){
 
 nhServices.service("WordpressService",function(){
     this.GetBlogsAsync=function(){
-        return $.ajax({url:"http://blog.neilhighley.com/wp-json/posts"});
+        //return $.ajax({url:"http://blog.neilhighley.com/wp-json/posts"});
+        //http://blog.neilhighley.com/?rest_route=/wp/v2/posts
+        return $.ajax({url:"http://blog.neilhighley.com/?rest_route=/wp/v2/posts"});
     };
 
 });
