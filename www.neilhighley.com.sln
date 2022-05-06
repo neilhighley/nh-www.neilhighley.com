@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website", "website\website.csproj", "{A101774B-4A79-467B-BD5F-4E187594E1E9}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Services", "Tests.Services\Tests.Services.csproj", "{EC7C4688-C452-4ACB-BE2C-5A94E45F75B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Admin", "Tests.Admin\Tests.Admin.csproj", "{DC617A20-5073-42E0-93CB-861154002E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websitenu", "websitenu\websitenu.csproj", "{35ADE96D-0C72-420C-9FFF-50C33CB48899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{DC617A20-5073-42E0-93CB-861154002E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC617A20-5073-42E0-93CB-861154002E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC617A20-5073-42E0-93CB-861154002E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ADE96D-0C72-420C-9FFF-50C33CB48899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ADE96D-0C72-420C-9FFF-50C33CB48899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ADE96D-0C72-420C-9FFF-50C33CB48899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ADE96D-0C72-420C-9FFF-50C33CB48899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38ACD244-94A5-414E-BDCC-31051C4FCFF7}
 	EndGlobalSection
 EndGlobal

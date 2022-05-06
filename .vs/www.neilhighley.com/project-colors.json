@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5cd5cda5-4fd3-4124-85d1-0c583a7c5c9c": {
+      "ProjectGuid": "5cd5cda5-4fd3-4124-85d1-0c583a7c5c9c",
+      "DisplayName": "SiteHealthMonitor",
+      "ColorIndex": 0
+    },
+    "2f06fcc6-171c-441b-84be-bef225317262": {
+      "ProjectGuid": "2f06fcc6-171c-441b-84be-bef225317262",
+      "DisplayName": "ServiceLibrary",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a101774b-4a79-467b-bd5f-4e187594e1e9": {
+      "ProjectGuid": "a101774b-4a79-467b-bd5f-4e187594e1e9",
+      "DisplayName": "website",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

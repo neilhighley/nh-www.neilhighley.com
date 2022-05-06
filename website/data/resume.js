@@ -1,22 +1,35 @@
 [
     {
-        id:"13",
-        title:"C# Software Engineer",
-        client:"SalonGENIUS, Bournemouth",
-        description:"Developer support for retail epos company.",
-        tags:"WPF / Azure / C# / SQL / DevOps / TFS / Sharepoint / VB6 / Hyper V / DevExpress / XUnit / MS.Test / Visual Studio 2008-2019 / VS Code",
-        content:"Joined multinational retail organisation to migrate systems to modern software technology and software development pipelines." +
-        "<br/>Technical lead on Future Software development implementing DevExpress components as a standard set for all tooling to aid in onboarding and reducing maintenance complexity."+
-        "<br/>Migrated source control systems from internal TFS to external Azure DevOps. Implemented Automated testing and delivery to key projects. Created translation tool utilising Microsoft Cognitive Framework."+
-        "<br/>Implemented .Net Standard C# for several COM interop projects to facilitate migration from legacy VB6 systems."+
-        "<br/>Worked with Verifone and SagePay and LayBuy to implement updated PDQ EPOS systems for bricks and mortar retail units using REST API."+
-        "<br/>Created installers using Visual Studio Setup Deployments and Wix"+
-        "<br/>Created Sharepoint based Knowledge Management instruments and tooling to aid in documenting common tasks and software development policy."+
-        "<br/>Introduced Test Driven Design concepts and mentored the team on writing tests using Xunit and MS.Test for new, and existing, code bases, as well as ensuring new code is written to facilitate easier testing and maintenance."+
-        "<br/>Technical lead and Agile SCRUM advocate, managed release and development pipeline for internal software projects with Azure Devops"+
-        "",
-        fromDate:"May 2018",
-        toDate:"November 2019"
+        id: "14",
+        title: "C# Industrial Software Engineer",
+        client: "LAM Research (Metryx), Bristol",
+        description: "Developer of industrial tool and robot controller software.",
+        tags: "C# / Azure / SQL / Azure DevOps / TFS / Sharepoint / Hyper V /  MS.Test / Visual Studio 2019 / SEMI / GEM 3000 / VS Code / Python / Jupyter",
+        content: "Supporting software behind Industrial Semiconductor processing and manufacture, developing and designing systems " +
+            "<br/>for use in Industry 4.0 projects involving robotics and distributed manufacturing systems. SEMI GEM Brooks." +
+            "<br/>" +
+            "" +
+            "",
+        fromDate: "January 2020",
+        toDate: "Current"
+    },{
+        id: "13",
+        title: "C# Software Engineer",
+        client: "SalonGENIUS, Bournemouth",
+        description: "Developer support for retail epos company.",
+        tags: "WPF / Azure / C# / SQL / DevOps / TFS / Sharepoint / VB6 / Hyper V / DevExpress / XUnit / MS.Test / Visual Studio 2008-2019 / VS Code",
+        content: "Joined multinational retail organisation to migrate systems to modern software technology and software development pipelines." +
+            "<br/>Technical lead on Future Software development implementing DevExpress components as a standard set for all tooling to aid in onboarding and reducing maintenance complexity." +
+            "<br/>Migrated source control systems from internal TFS to external Azure DevOps. Implemented Automated testing and delivery to key projects. Created translation tool utilising Microsoft Cognitive Framework." +
+            "<br/>Implemented .Net Standard C# for several COM interop projects to facilitate migration from legacy VB6 systems." +
+            "<br/>Worked with Verifone and SagePay and LayBuy to implement updated PDQ EPOS systems for bricks and mortar retail units using REST API." +
+            "<br/>Created installers using Visual Studio Setup Deployments and Wix" +
+            "<br/>Created Sharepoint based Knowledge Management instruments and tooling to aid in documenting common tasks and software development policy." +
+            "<br/>Introduced Test Driven Design concepts and mentored the team on writing tests using Xunit and MS.Test for new, and existing, code bases, as well as ensuring new code is written to facilitate easier testing and maintenance." +
+            "<br/>Technical lead and Agile SCRUM advocate, managed release and development pipeline for internal software projects with Azure Devops" +
+            "",
+        fromDate: "May 2018",
+        toDate: "November 2019"
     },
     {
         id:"12",
